@@ -15,4 +15,4 @@ from whitenoise import WhiteNoise
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'logintest.settings')
 
 application = get_wsgi_application()
-application =  Whitenoise(application)
+application =  WhiteNoise(application)
